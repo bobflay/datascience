@@ -1,0 +1,73 @@
+import pandas as pd
+import numpy as np
+
+# Load sample dataset
+df = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv")
+# print("Original Dataset:")
+# print(df)
+
+# print(df.head()) # Display the first few rows of the dataset
+
+# # Set display option to show all rows
+# pd.set_option('display.max_rows', None)
+
+# # Then print the full DataFrame
+# print(df)
+
+# # Reset to default (usually 10 or 60 depending on environment)
+# pd.reset_option('display.max_rows')
+
+# # Display information about the DataFrame
+#df.info()  
+
+#print(df.describe())
+
+## what is the mean
+
+
+# Example data
+# data = {'scores': [80, 90, 70, 60, 100]}
+# df = pd.DataFrame(data)
+
+# # Calculate the mean
+# mean_score = df['scores'].mean()
+# print("Mean score:", mean_score)
+
+
+# # Example dataset
+# df = pd.DataFrame({'values': [10, 12, 23, 23, 16, 23, 21, 16]})
+
+# # Calculate standard deviation
+# std_val = df['values'].std()
+# print("Standard Deviation:", std_val)
+
+
+
+#print(df.columns)
+
+# print(df.shape)
+
+
+#df.isnull().sum()
+# df.dropna(inplace=True)  # Remove missing values
+
+## select data
+
+# Select a column
+# print(df['total_bill'])
+# print(df['total_bill'])
+
+
+# # Filter rows
+# print(df[df['total_bill'] > 20])
+
+# # Multiple conditions
+# print(df[(df['total_bill'] > 20) & (df['tip'] > 3)])
+
+
+# Select multiple columns
+
+# print(df.groupby('sex')['tip'].mean())
+
+# # Group by two columns
+# print(df.groupby(['sex', 'smoker'])['tip'].agg(['mean', 'max', 'count']))

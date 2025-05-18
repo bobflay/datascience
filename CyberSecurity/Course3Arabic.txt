@@ -1,0 +1,99 @@
+el yom badna ne7ki 3an el cryptography, iza baddak tkun a good cybersecurity specialist, lezim tkun at least bta3rif asesiet el cryptography.
+el cryptography hieh diraset w totbi2 methods and techniques to protect information using codes for secure communication.
+min el e5er hadaf el cryptography to ensure secure communication between two parties
+el cryptography 3adatan m2assameh la osmen, symmetric and asymmetric.
+
+ra7 nballich ma3 el symmetric encryption concepts.
+symmetric encryption aw aw2at mo3taraf fiha ka private key encryption. btesta3mil nafes el key to encrypt and decrypt data. kermel heik isma symmetric.
+li2anno nafes el key biesta3mlo el source wel destination
+w kamen btesta3mol nafes el cypher.
+el cypher huweh el algorithm yalli bi5allina na3mol encryption w decryption lal data.
+lakan nafes el algorithm w nafes e key biosta3mal bel source to encrypt the data, w nafes el algorithm w nafes el key biotsa3mal bel testimation to decrypt the data
+
+el key length, addeh toulo lal key, bi7adid 2uwiyet el encryption. w 3addata kell ma ken el key tawil, kell ma ken el encryption a7san.
+
+example of private key ciphers: AES, RC5 and TwoFish
+5allina nchuf kiff el symmetric encryption btechteghil.
+
+so fi 3anna source, baddo yeb3at data lal destination w baddo ya3milla encryption abel ma yeb3ata, so fi 3anna plain text, w ba3den bnesta3mel el key ma3 el cypher yalli 
+min na22i w mna3mol encryption lal data. w ba3den bisir fi 3anna encrypted text.
+el encryption na3malaet kermel ne2dar neb3at data bala ma 7adan ya3rif ne7na chu 3a neb3at 3ala internet la ne2dar n7afez 3l confidentiality of the data.
+7awalna plain text la cyphered text and ba3den re7na 7awaln el cyphered text la readable text, using the same key and same algorithm
+
+w kell ma kenet el password atwal kell ma ken badna wa2et aktar la na3milla decryption w ne2dar nele2i el key
+
+
+ahmma w 2a2wa symmetric encryption scheme isma AES: Advanced Encryption standard
+It is so strong that it is even acceptable for military purposes.
+toul el keys bel AES bietrawa7 ben el 128, lal 192 aw even lal 256 bits.
+so 3al aked AES-256 yo3tabar a2wa min AES-192
+
+AES widely acceptable w musta3mala bi majelet ktireh
+
+mitel ma iltilkon abel mitel, ma 3anna symmetric encryption fi chi kamen ismo asymmetric encryption. aw kamen bisammu public key cryptography
+ahamma fare2 ben el symmetirc wel asymmetric huweh el el symmetric biesta3mlo nafes el key la ya3mlo encryption w decryption lal data. bass el michkleh betbayen
+iza ana baddi ib3at messages la aktar min 100 cha5oss se3eta motdar e5la2 100 key gheir ba3od, so el solution kenet bi iste3mel el public key cryptography.
+so yalli bisir bel public key cryptography inno bikkun 3anna el plain text el 3adeh, baddna na3millo encryption lal plain text bi public key.
+ya3neh iza ana baddi ib3at message la chafi2, chafi2 3amal private w public key, w ba3atleh el public key taba3o, ana baddi a3milla encryption lal message bel public
+bel public key taba3 chafi2. w baddi ib3atlo yeha encrypted.
+chafi2 lamam baddo yestilima lal message, baddo ya3milla decryption, ma fi ya3milla decryption bel public key taba3o ma biemchi 7ala. li2anno manna symmetric.
+different algorithm, lezim yesta3mol el private key taba3o la yen3amlal decryption lal message.
+lakan aya message min3ammalal encryption bel public key, lezim el private key ya3milla decryption, 
+amma iza el message n3amlal encryption bel private key, el public key fi ya3mila decryption ( w hay bel te7did bi sammuha, digital signature), ra7 ne7ki 3anna.
+tab chafi2 baddo yredd 3layi bi message, kamen ana bikun 3andeh private w public key la ileh, beb3at el public key la chafi2 w la aya cha5oss, kell el 3alam fiha ta3rif el public key taba3
+bia3mlo encryption lal message, bass ana el wa7id yalli fieh 2e2ra el messages yalli waslin la 3andeh, li2anno el private key huweh el wa7id yalli fie ya3mmol
+decryption lal message yalli encrypted bel public key.
+
+Some popular asymmetric solutions include the Diffie-Hellman, which is used for key exchange between two
+
+entities.
+
+We also have RSA, which is used for actual encryption or decryption, and we have ECC,
+One advantage of symmetric encryption is that it's very fast, whereas asymmetric encryption is slow
+
+w aw2at fina nesta3melon tnayneton bi aleb ba3don ya3neh lamma ana baddi ib3at el public key tab3uleh la chafi2 for example, ma bib3ato mitel ma huweh,
+ba3millon encryption bel awal using a key, ya3neh 3am e7ki 3an symmetric encryption, biousal my key la 3and chafi2 2 bia3millo decrypt
+w ba3den chafi2 biesta3mil my public  key la ya3mol encryption la his message, 
+
+
+hayda 7addisna 3an el encryption.
+amma halla2 5allina ne7ki 3an el hashing wel digital signature, kamen min el technique yalli ktir mosta3male bi majel el cyber security.
+5allina nballish with hashing, 
+
+yalli bisir bel hashing huweh inno bta3ti document, text aw file, to a one way hashing function, w bta3tina fixed size message digest as output.
+key point, huweh inno you can provide a document with any size w bidall 3ala toul 3anna nafes el size taba3 el output. aw el hash
+teneh ahamma no2ta lezim ta3erfouha about hashing inna hieh a one way, so iza ba3tikon el message digest aw el hash mafikon terja3 ettal3o minna el message el original
+w haydeh ahamma property bel hash functions.
+ya3neh iza bna3ti lal function two different documents, bia3tina 2 different hashes, iza nfes el docoument ghayarna fi shway zghireh, ra7 yetghayar el hash.
+
+3adatan bnesta3mil el hashing to ensure integrity. la net2akkad min inno el file ma t3addal fi aw nla3ab fi huweh w 3am yenti2il la ilna.
+iza baddi ib3at file min source la destination.
+ana bel source 3andeh el file 3adeh. 
+yalli ba3mlo huweh inno b2atti3 el file 3ala one way function la talli3 minnel hash tab3oulo, w beb3ato ma3 el file.
+at the destination, el user baddo ya3mol download lal file tab3uleh, w huweh kamen bi2atlo lal file 3ala nfes el hash function w biotla3 3ando bel e5er hash value.
+biejrja3 bi2aren el hash value yalli toli3 3ando ma3 el hash value yalli ana be3to ma3 el file, iza tol3o hinneh zeton ma3neta el file ma t3addal fi
+w ma nla3ab fi, amma iza ma tol3o hinneh zeton ma3neta el file t3addal fi, w 7adan in the middle, 3addal fi la file.
+
+another use of hashing is digital signature, 
+digital signature, huweh inno ana bikkun 3andeh document, btalli3lo el hash tab3oulo w berja3 ba3millo encryption bel private key tab3ouleh
+w beb3ato.
+el ach5ass yalli ma3on el public key ktab3oul fihon ya3mol decrypt w yotla3 andon el hash, w ba3den bi2arno el hash w biet2akakdo inno el document ma t3addal.
+w heik bikun andon isbet inno ana el wa7id yalli mdit el document wel document w ma m3addal 3leh chi.
+
+
+
+Some popular hashing solutions include MD5 - the message digest algorithm, which always creates
+
+128-bit fixed sized output hashes regardless of the input.
+
+We also have SHA - the secure hash algorithm now SHA-1 is known to be weak, and is no longer
+
+used.
+
+However, for SHA-2, we have different outputs available.
+
+We have SHA-224, 256, 384 and 512.
+
+So these numbers represent the size of the hash output.
+
+

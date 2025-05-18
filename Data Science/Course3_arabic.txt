@@ -1,0 +1,151 @@
+kiff ra7 ykun nharakon bi awal yom bel cheghel as a data scientist:
+hon fi e7timelen:
+ya imma biji la 3andak moudirak 3arfen chu baddo minnak w m7ddar el reports wel diagrams w yotlob minnak tola3 bi predictions
+la msarif el chiriki bel sineh el jay, w inta hon ra7 tballich tjammi3 el data yalli 3amlo fiha hal report w 3ala hal asses terja3 t7alila w ta3milla analysis.
+
+aw e7timel ktir kbir tfout 3ala chirki, ykoun 3andon kammiyet data ktir kbiri mjamm3ina, ma 3arfenin chu baddon ya3mlo fiha w yotolbo minank
+t7alila la tcheflon kiff fihon yzeedo el rebe7 bel mar7aleh el jay. bi hal case having the dataset is a starting point, 3akess awal case, 
+lezim inta terja3 tjammi3 el data. bi hal tari2a bikun fik t7alil el data w ettabi2 3laya different analytical tools la etali3 minna insights w te2dar ta3mol minna
+forcasts.
+
+in both scenarios, min wejhet nazar data scientist, el 7al la aya task bi ballich min inno ykun 3andak dataset ndifi.
+hayda awal chi lezim ykun 3andak 3al todo list
+w min ba3da bisir fik tkaffeh bel te7lil wel forecasting
+
+fi 3anna hayda el diagaram, halla2 eh bi bayin ktir 3iji2 bel awal
+bass hayda el diagram jemi3 fi kell chi w kellon hal points ra7 nechra7a bel tafsil
+kell term mawjoud fi, lezim at least tkouno bta3erfo w e5din 3anno fikra abel ma tbalcho bi field el data science
+
+diagram m2assam la 5 columns, kell column fi different stage from the process to solve a business task. min working with traditional data, aw working with Big Data.
+la na3mol Business Intelligence la nousal lal machine learning technique.
+
+ba3den kell column m2assam la rows, w bi aleb kell row fi jaweb la hal 2as2ila:
+- aymata fina ntabbi2 hayda el part
+- leh ne7na bi7ajeh la ilo
+- chu el techniques el related la hal activity
+- wen aw bi aya real life case fina ntabbi2 hayda el chi
+- kiff fina ntab2o w bi aya tools
+- min fi ya3mol hayda el chi
+- w chu aktar el misconceptions about this activity
+
+hopefully lamma badna nfout bi kell hal tafasil el sura touda7 aktar w tbattil ktir m3a2adeh
+
+Bel nisbi lal business and computing, el data is defined as information stored in a digital format. w momkin fina nesta3mila la na3mol analysis w decision making.
+mitel mankon cheyfin fi 3anna 2 types of data:
+fin 3anna el traditional data w fi 3anna el big data.
+ykun fi 3anna data hwueh awal step la ne2dar n7all business problem aw la aya ba7ess.
+so daruri mhimm na3rif what we are looking at.
+
+lamma nesma3 kelmet data, awal chi bio5tor bi belna huweh el traditional data, data ma7tuta bi tables w columns, containing numerical aw text values.
+data ma7fouza bi databases, w m2alla3a 3ala one computer.
+
+big data min mayleh tenieh, a totally different story. level teneh min el data.
+mitel ma mbayan bel iseme big data, ya3neh 3am ne7keh 3ala kammiyet ktir ktir kbiri min el data.
+w hal data manna kell mitel ba3da, ya3neh mich data bi columns w table w fiha text w numerical data.
+fiha tkoun bi different format w fiha tkun, structured, semi-structured and unstructured data.
+
+Volum: lakan mitel ma ilna el volumn taba3 el data bikun ktir kbir w bie5od ktir storage space,
+w betkun 3adatan distributed between different computers w measured in terrabytes, petabytes w 7atta hexabytes
+
+Variety: mite ma ilet el big data betkun under different varieties, manna bass text w numerical:
+fiha tkun, images, audio files, mobile data, 
+
+Velocity: when working with big data ma lezim nontor ktir la totla3 3anna el result, ahamm el ahdef bikkun ne2dar ntalli3 el pattern min el data as quickly as possible
+ma3 tatator el technology 3am ne2dar ntalli3 el heik result currently bi ser3a ktir kbiri.
+
+
+min ba3d ma tkoun jamma3t  rattabet el data, sar el wa2et inank tabllich tfout bel data science and analytics.
+
+data science majel ktir kbir,w interdisciplinary field biejma3 ben statistics, mathematics, programming, problem solving and data management tools.
+so assamna el data science into 3 segments:
+business intelligence, traditional methods, w machine learning
+
+awal setp hieh to analyse past data, wel bel busienss intelligence huweh el discipline yalli ne7na bi7ajeh la ilo la na3mol analysis lal past data.
+Business intelligence bietdamman el process of analyzing, understanding and reporting available past data.
+hal chi ra7 y5alli ysir 3andak reports w dashboards, w ra7 yse3dak la to2dar te5od stratigic and tactical busienss decision.
+hal part min el process ktir mhimmeh w btestahel wa7ad ya3mol investment la wa2to fiha li2anna ra7 ettli3 minna insights w ideas about the business
+kermel tse3dak tkabbir el business w tetfawa2 3al competitors.
+
+Business intelligence bet5allik tefham, kiff w lech el busines el sales tab3oulak zedit, 
+w hal competitors 5osro market shares,
+hal sar fi zyedeh bel as3ar of your products.
+kiff margin el arbe7 tghayar min last year to this year.
+
+
+hayda kell chi related lal business intelligence, nedross el past business performance kermel ntawir el performance bel musta2bal.
+
+
+la hal no2ta ne7na kenna 3al2anin bel madeh, 3am nechteghil 3al data saret w 5olset bel madeh w sta3mlan fiiha el business intelligence la tfasserlna past events.
+bass halla2 sar el wa2et la nettala3 3al musta2bal. badna ykun bi imkenna ne2ar netnabba2 bel future sales, w addeh baddo ykkun rebe7na w addeh baddna nedfa3 expenses.
+
+once el BI dashboards and reports bikun 5alsin w jehzin, bikun fina ntabbi2 2 types of data science:
+
+ya imma el traditional methods aw el traditional data science, 
+aw el machine learning kermel ne5od fikra 3am chu momkin ysir bel musta2bal
+
+traditional methods, hinneh majmou3it methods jeyin min el statistics w adapted lal busines.
+mafi aya chakk inno hal traditional methods ba3don el 3alam btesta3milon el yom w hinneh perfect la ne2dar netnabba2 bel performance bi de22a momtezeh.
+la a3tikon fikra, el regression analysis, cluster analysis wel factor analysis hinneh ahamma example mnesta3milon bel tradaitional methods.
+
+
+amma bel nisbi lal machine learning 3aks el traditional methods, el machine through mathematica and significant amount of computational power, with AI
+el machine bikun 3anda el odra inna te2dar tetnabba2 bi outcomes bel asses ma betkoun mbarmajeh 3layon.
+
+chu hinneh el technique el specific lal traditional data:
+lamma min2oul data momkin nkoun 3am ne7ki 3an :
+awal ma njammi3 el data, min sammiha raw data, aw primary data, aw raw facts.
+haydeh el data mafina n7allila deghri. li2anno pure mitel ma hieh e5dina w m7afziina 3anna 3al server.
+
+tejmi3 el data bisammuha data collection w haydeh awal step.
+data fiha tetjamma3 bi kaza tari2a, masalan we7di min el toro2, 3an tari2 surveys asking people to rate the experience on scale from 1 to 10.
+aw masalan tejmi3 el data fi ykun bi tari2a aktar automatic, mitel ossit el cookies bel browser, bia3touna details aktar 3an el user activity bel website.
+both example bia3to el chariket afkar kiff momkin y7asno el customer satisfaction
+
+bass abel,  el data momkin ykun fiha ktir machekil, w lezim yen3ammalla procssing able ma n7allila
+
+awal chi lezim na3mlo min ba3d ma njammi3 el data huweh na3mol chi ismo preprocessing.
+preprocessing huweh group of operations bet7auwilna el raw data la format zabta aktar la ne2da nesta3mila.
+example ne7na 3am njammi3 data 3an el client, fi client yemkin ma y7otto addeh a3maron 3al mazoubt
+aw yemkin ma y3abbot specific fields, hayda el chi momkin ya3milneh michkleh so lezim nchouf chu lezim na3mol bi hal records
+aw mokin kamen y7otto data yghalat, y7ott ismo maslan isem balad.
+
+chu el tecnique yalli biosta3malo be preprocessing:
+1- awal technique isma class labeling:
+ya3neh kell data 3anna yeha ne2tar n2oul la aya class btentemeh
+ya3neh masalan numerical aw mich numerical
+el numerical data type fina na3millon manipulation, masalan ne2dar njeeb minon el average number sold per day or month
+
+
+w teneh type hwueh el categorical labeling: huweh el type yalli mafina na3mol 3leh mathematical manipulation
+maslan person's profession, aw el place of birth, 
+
+another technique is : data cleansing, aw data cleaning aw data scrubbing
+hadaf el data cleansing is to deal with inconsistent data.
+malan lamma ykun asemehel belden maktoubin ghalat aw fihon typos
+aw masalan lamma ykun fi mssing value chu lezim na3mol lezim nchil kell el recorda w n7ott average number matra7o
+
+
+halla2 5allina nchouf chu el approaches yalli fina nesta3milon to work with traditional data:
+awal chi fi 3ana el data balancing approach:
+ftordo 3malto survey w bi hal survey ken fi 10 sbaya w chabben
+so el rate 80%, 20%,
+ hon baddna bass ne5od data min sabitne w n2arron ma3 le value tab3oule el chabben
+lezim deyman ykun 3anna ratio 50-50 la tkkun el data tab3itna mazbouta
+
+another approach ismo data shuffeling
+data shufflingi ya3neh gayer shway bel order taba3 el data kermel tola3 more reliable
+li2anno eld ata yalli baddi jammi3a bel awal betkun gheir el data yalli baddi jami3a bel e5er
+
+we bel e5er fi 3anna 2 typs of visualization lal traditional data
+awal wa7ad ismo ER diagrams,: aw entity relationship diagram
+
+w teneh diagram is Relational schema
+
+
+
+
+
+
+
+
+

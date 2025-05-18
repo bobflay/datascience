@@ -1,0 +1,110 @@
+Identity Federation
+lamma nefta7 masalan new website w badna na3mol sigup w yotla3lna buttons to login with: Google, facebook, Apple, aw aya other service
+hayda el chi bi5alli inno ykun fi trust ben el service provider yalli huweh el website w ben el website yalli banda na3mol fi registration,
+ya3neh hinneh they trust inno el user date is accurate w verified. w hayda el chi ktir mhim li2anno biemna3 el cha5os ye5la2 multiple accounts
+bass abel ma nfout aktar into identity federation 5allina nchouf kiff traditional token based authentication btechtetghil:
+
+inta user w baddak ta3mol login 3ala website aw app:
+awal chi bta3mlo bteb3at e username wel password tab3oulak, iza el username wel password tab3oulak mazboutin el server bieb3at success message
+w bieb3at ma3a token. once bisir ma3na hayda el token 5alas ne7na minkun auhenticated w ma ba2a bi7ajeh inna neb3at username w password marra tenieh
+chi ktir mhimm lezim ta3erfo inno el token lezim ykun short lived w lezim yetghayar automatically kell fatra. 3akes el password yalli lezim tetghayar masalan kell 3-6 months
+token yemkin yetghayar kell 5 minutes. el server mafroud automatically ye5od el token el adim w yerja3 yeb3at token jdid.
+
+lakan la nerja3 la mawdu3 el identity federation, inta baddak ta3mol logoin with google, el server bi7awlak 3ala google, honik bet7ott el username wel password tab3oulak bi google
+google biet2akakd min your identity w bierja3 google bieb3at token bikun biformat  (SAML) (Security Assertion markup language) 
+lal website inno yes access is validated, el server lamma yousalo success min google, bi5allik tfout.
+el server bisir fi yesta3mol hayda el token la ye5od information 3annak min google, ismak, ra2em telephonak, kell el information el matloube la yen3alam login.
+so heik betsir 3amalyit el signup wel registration ktir hayneh w into mich bi 7ajeh inkon tetzakaro password la different website w ktir secure
+w ahamma chi bi hal process huweh el trust, so companies they trust, gmail, facebook ino el identity yalli badda tiji min 3andon tkun true w verified.
+
+hay bi e5tisar el identity federation.
+
+Amma el single sign-on: hieh  a subset of identity federation: bass bel signle sign-on minkun 3am ne7keh 3ala single organization:
+ya3neh iza 3andak multiple application bass bta3mol login bi email wa7ad w kell el apps biefta7o la7alon. li2anno kell el apps bikuno teb3in la nafes el organization.
+masalan ana lamma kenet bel United Nations, ntalab minneh a3mol admin application. 3malta. ba3den ntalab minneh inno badal ma el user ya3mol login w ne7na na3mol create lal user
+lezim e user ye2dar yesta3mol username wel password tab3oulo yalli already mawjoudin bel domain taba3 el UN kermel ye2dar yfout 3al system. so hayda el chi ismo single sign on.
+ya3neh inta already betkoun logged in bel email tab3oulak, iza baddak tefta7 teams, deghri biefta7.
+baddak tefta7 mpas, deghri btefta7 mannak bi 7ajeh ta3mol login kaza marra la yefta7o el services tab3oulak
+
+lakan in summary: Identify federation hieh lamma different services yotolbo access from a single website, mitel login with facebok, aw login with google.
+Signle Sign on. within the same organization through a single email account aktar min service btefta7 bi nafes el wa2et bala ma notlob inno na3mol login
+
+Protocols used in identify federation: SAML: (Security Assertion Markup language)
+Standart for single sign on implementation
+w in its basic service bia3mol authentication between two parties
+
+
+Next: OAuth is standar for Authorization between 2 parties, bta3ti permission la other services ino ya3mluha 3annak,\
+min zekir wa2et facebook, ken masalan iza fetet 3ala chi game aw 3ala chi app. bisir fi post to facebook.
+
+Next 5alluna ne7ki 3an el security Governance:
+w sadd2uneh hayda el chi ktir mhimm w rakizet el security bi kell chirki.
+ok ba3rif ktir minkon met7amsin lal cyber security w 5abriet ethical hacking wel penetration testing, ra7 nousallon bass abel fi hal kame chaghleh yalli lezim ta3erfoun
+w ben "tetfalsafo fihon" li2annno awal chi ktir ktir mhimmin roghom innon ktir basic, w teneh chi ktir fihon masare iza bta3erfo te7ko fihon.
+fa ma testa5efo bi chi.
+Security Governance bi kell basata huweh kell chi ta2riban manno technical.
+chu el fare2 ben el policy, standars wel procedures.
+
+
+bel pyramid taba3 el security governance fi 3anna el policy on top. Policy bikuno organization wide. Very High level w ktir wes3in by default.
+Policies bikun 3ala fatarat tawileh la kaza sineh, wel Policies bi7adido mas2uliet kell min el idara wel mwazafin bi 2aleb kell chirki.
+Policies bikuno ma7dudin (3adadaon alil) w mitel ma ilet high level.
+
+ba3den bieji 3anna el standarts yalli bikuno 3ibara 3an rules yalli ne7na bi 7ajeh ntabi2on kermel n7a2i2 el hadaf min  policy.
+standars bikuno aktar bel 3adad
+
+w ta7et el stanars bikun 3anna el procedures yalli hinneh 3ibara 3an steps yalli lezim na3milon 7asab el rules la nousal lal hadaff taba3 el policies.
+hadaf el procedure inno net2akakd inno el mwazafin 3am ya3mlo nafes el steps la ytab2o nafes el standart w tetnafaz nafes el policy.
+so heik bikun fi consistency wel chirki ma betkun depdent 3ala mwazaff betkun depedent 3ala procedure, 
+ya3neh iza mafi standards m7adadin kell wa7ad bisir baddo yechteghil 3ala zaw2o
+
+into ka cyber secruity mas2oulin el security governance taba3 el chirki badkon tektbo hol el documents w badkon ta3mol excel sheets la eteb3o el status taba3 kell policy
+
+
+examples:
+Remote work policy: usually decision bieji min el idara, badna nesma7 lal mwazafin yechteghlo remote work.
+idara lezim t7adad aya department. so awal point bel policy betkoun
+1- eligibility
+2- device usage, remotely 3an tari2 aya devices.
+3- network security? kiff? badon ya3mlo connextion, VPN
+4- Access control, multi-factor authentication
+5- work environment
+
+ba3den min fout bel standards:
+1- Password management standards: ya3neh el password lezim tetghayer kell 90 ya3mol
+2- secrure communication: access to company's data lezim ykoun 3an tari2 VPN
+3- sensitive discussion lezim ykun 3an tari2 company chat app
+4- access control standard: disable remote access for inactive use for 30 days, lock account after 3 failed attempts
+amma el porcedure hinneh step by step steps masalan:
+badna na3ti access la remote work la mwazaf chu lezim el steps yalli lezim na3milon
+1- cherki lezim tef7az el device w ta3ti a specific preconfigured device lal mwazaff
+2- mwazzaf mafroud yomdi 3ala war2a y2ul fiha chu stalam w inno y7afiz 3l adivce
+3- device lezim ykun nezil 3leh vpn software w preconfigured, ma chaghlet el mwazaff ya3mol configuratin lal vpn
+4- training 3al remote work protocols
+5- ma lezim ya3mol connect 3al public wifi
+6- setup la MFA: multi factor authentication la ya3mol connect la vpn
+7- logout from vpn when work is done
+w heik steps
+
+another example:
+Password Policy: Password lezim tkun strong, w lezim 3ala toul tetghayar wel user hinneh mas2ulin 3anna.
+Password standard: lezim tkoun more than 8 characters, w lezim at least ykun fiha 2 special characters w lezim tkun fi capital w lower case characters
+                   password lezim tetghayar kell 90 yom
+password procedure: step by step guide kiff bta3mol update lal password, w kiff bta3mol forget lal password.
+w fi chaghleh ktir mhimmeh lezim ta3erfouha inno ma lezim t3a2do el password, kermel ma ysir el ach5as yektbo el password 3ala stickynote w heik bettir option el security
+kellayeta
+
+inkon tektbo information security policty chi ktir m3a2ad w so3ob w bie5od ktir wa2et w fi kaza factor lezim te5duhon into consideration:
+awal el chi risks: chu el possibility inno w ysir fi 3anna risk w chu el priority tab3iton
+teneh chi legal and regularity requirements: kell business 3ando his own set of legal and regularity requirements, so hol el points lezim tendarass w lezim tenkatab
+bel policy
+w akid lezim yen7att iza sar fi violation lal policy chu el 3i2ab aw chul el gahramet yalli lezim tendaf3 fi 7al sar hal chi wa illa el policy kell ma bikun ila 3aze
+    
+
+
+
+
+
+
+
+

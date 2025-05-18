@@ -1,0 +1,18 @@
+- create registration page app
+- create github repository
+- push code to github
+- run default flutter app
+- clean the code
+- rename title to registration page
+- center title
+- add element to the registration,
+- Text and TextField
+- mainAxisAlignment, and cross axis alignment
+- fields for text: decoration: InputDecoration(
+    border: OutlineInputBorder()
+)
+- ElevatedButton
+
+
+- use SingleChildScrollView
+

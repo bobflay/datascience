@@ -1,0 +1,277 @@
+In this lecture, we are going to discuss some popular compliance laws and regulations. The compliance
+
+landscape has evolved significantly during the recent years, and now companies are obligated to protect
+
+the integrity and confidentiality of information that they gather.
+
+We are also going to have a look at some intellectual property instruments.
+
+Before we delve into details of compliance, there are some key terms which you must understand, the
+
+first of these is PII or personally identifiable information.
+
+Now, this is information that can be used to identify, contact or locate someone.
+
+And this includes things like full name, driver's license number, Social Security number, home address and
+
+contact numbers.
+
+Any organisation that collects, stores and processes this information must be protected, and they are
+
+also obligated to announce the breaches that pass a certain threshold.
+
+There are also some penalties that are applied for organizations that do not comply.
+
+The next important term that we need to understand is PHI, which is Protected Health Information.
+
+Now, this refers to health information, including health care plans, payment and history that can
+
+be linked to an individual.
+
+This includes things like names and addresses, health records such as medical or dental, full face
+
+scans and biometric data and health insurance numbers.
+
+The primary difference between PII and PHI is that PHI caters specifically to health related information.
+
+Similar to PII, every organisation that collects, stores and processes
+
+this kind of information must protect it.
+
+There are laws and regulations in place which we are going to discuss shortly, and there are penalties
+
+applied if organizations do not comply with these regulations.
+
+Let's have a look at some of the popular compliance regulations, so the first one is GDP or general
+
+data protection regulation.
+
+This was introduced by the European Union in order to protect the personal data of EU citizens worldwide.
+
+An important point to note here is that an organization can be located anywhere in the world, even
+
+outside EU.
+
+But if they collect, process and store the data of EU citizens, then GDPR applies to them as well.
+
+The next one is HIPAA, which stands for Health Insurance Portability and Accountability Act.
+
+Now this is aimed at protecting health care information.
+
+And the third one is PCI-DSS, which is payment card industry data security standard protection
+
+regulation, and it is aimed at protecting credit card data.
+
+We are now going to have a more detailed look at each of these regulations.
+
+Let's start with GDPR or the General Data Protection Regulation, and here are the salient features.
+
+So the first is purpose limitation. Data should be collected and used only for the stated purposes.
+
+So an organization cannot use data for purposes it has not explicitly declared.
+
+Data breaches must be reported within 72 hours.
+
+Failure to do so may incur penalties and penalties are huge in GDPR. So fines can go up to four million
+
+euros or four percent of annual turnover.
+
+GDPR also mandates ensuring the integrity of the data, so data must be safeguarded, encryption
+
+should be employed and privacy should be enforced.
+
+Storage limitation states that only data that is needed should be stored and other data should be
+
+deleted.
+
+So if a company has collected data about an individual and they're only using part of their data, so
+
+the rest of the data should be deleted, they cannot just stored it indefinitely in the hopes of using
+
+it in the future.
+
+GDPR also provides the "right to be forgotten", which basically means that organisations need to provide
+
+individuals the option of selecting whether they want their data to remain indefinitely with the company
+
+or whether they want it to be deleted.
+
+And if they choose so, the company must delete the data.
+
+Now, this gives tremendous powers to individuals because they can opt whether the data lives indefinitely
+
+with the company or whether they want it to be deleted.
+
+So next is HIPAA - Health Insurance Portability and Accountability Act.
+
+And here are the salient features of HIPAA.
+
+So the first one is physical protection.
+
+Companies must control and monitor access to systems and track electronic personal health information
+
+devices.
+
+Second one is admin production. Companies must manage risk, they must block unauthorised access and
+
+train staff in order to do so.
+
+Companies must immediately notify patients, health authorities and possibly media, about breaches.
+
+It should be noted that breaches need to pass a certain threshold.
+
+So if the breach passes 500 or more records, then the company is obligated to make these announcements.
+
+If the breach is very small, then they do not need to actually notify media, for example.
+
+The privacy rule states that a company must respond to patient's request for information.
+
+So basically a patient can request a company to share all of the information that they have collected
+
+about him.
+
+HIPAA has different years of penalties which range from hundred dollars per violation of up to
+
+1.5 million dollars per year if the company is shown to wilfully neglect HIPAA regulation.
+
+HIPAA also enforces technical protection, which means the need to protect the confidentiality and integrity
+
+of data so companies must encrypt electronic personal health information and they must control and log
+
+any access to EPHI.
+
+The third one is PCI-DSS, which is aimed at protecting credit card data. Companies, which want to
+
+be compliant with PCI-DSS must do the following.
+
+The first one is vulnerability management, which means that companies should have an appropriate vulnerability
+
+management program in place, which basically scans for any possible vulnerabilities and addresses them.
+
+The second one is Secure
+
+network and communication. Companies must employ appropriate tools in order to encrypt and secure their
+
+end-to-end communication.
+
+The third one is network monitoring and testing, so companies must have mechanisms which ensure that
+
+the network is properly monitored and any breaches or malware infections are detected.
+
+The fourth one is authentication and access security.
+
+So companies must have appropriate mechanisms which ensure that end users are properly authenticated.
+
+A simple example could be that a client wants to make a credit card payment and if it is doing so on
+
+HTTP, then it means the company has breached PCI-DSS because the end-to-end connection is not encrypted.
+
+It is being done in plain text, which can lead to possible compromise of the credit card data.
+
+So they should always use HTTPS
+
+for instance, in order to ensure that the end to end payment channel is encrypted.
+
+Here are some tips on being compliant with these regulations, as the old saying goes, prevention is
+
+better than cure.
+
+If your company can conduct business without extensively collecting personally identifiable information
+
+and protected health information, you should do that.
+
+And even if you have to collect it, then it should be the minimal set that is required.
+
+An example could be if you want to enable online payments on your website.
+
+So one option could be that you collect all of the information, including clients name, address,
+
+credit card information, phone numbers and so on.
+
+And then you also store payment information.
+
+Another option could be you could use third party things like PayPal and you just redirect the client
+
+to them.
+
+And from there you just get a confirmation of the payment.
+
+So if payment confirmation is the only thing required for conducting your business, you should definitely
+
+do that.
+
+There is no point in collecting extensive information, which is only going to increase your exposure
+
+factor.
+
+You should always use encryption both at rest, so for example, your database should be encrypted,
+
+in transit when you're sending your data over the public Internet, for example.
+
+So you should use, for example, IPSec or TLS.
+
+You should also implement a security framework for controlling access to data, so your data should be
+
+properly classified.
+
+For example, it is private,
+
+is it confidential, is it public?
+
+And then you should assign access to different users based on that.
+
+Let's discuss intellectual property, a concept that is increasingly becoming important in the world.
+
+So today, the focus of wealth creation is increasingly moving away from tangible assets such as real
+
+estate to intangible assets such as intellectual capital.
+
+The problem is that we have extensive tools and laws in order to protect tangible assets, but we also
+
+need similar tools to protect these intangible assets.
+
+So intellectual property is an intangible type of property that has been created using the human intellect.
+
+Some of the popular tools that are used to protect intellectual property include trademark.
+
+So which gives the owner exclusive right to the use of phrase, symbol or design.
+
+And this prevents companies from selling products using similar logos.
+
+So, for example, these trademarks are used by McDonald's and Nestlé and other companies are not allowed
+
+to use them.
+
+The next is copyright, which basically protects the creative or intellectual work such as images,
+
+music and other works of art.
+
+Now copyright is valid for the life of the author,
+
+and then an additional 70 years after that. An important point to note is that for copyright, it is
+
+nice to get it registered.
+
+But even if it is not registered, and you can show the date of publication, whether it's online or in
+
+the form of a book or anything, if you can prove the date of publication, then you already own the
+
+copyright to that.
+
+So whatever you publish, if it is original and you can prove the date of publication, then it means
+
+that it is automatically copyrighted.
+
+The third one is patent, which prevents anyone from making, using or selling the patented invention.
+
+This is extensively used by commercial enterprises to launch specific products.
+
+Now patent is valid for 20 years, and it is also only applicable in the country
+
+it was filed.
+
+So if you want an international patent, you have to apply in different countries.
+
+This concludes our lecture.
+
+I'll see you in the next one.

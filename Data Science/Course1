@@ -1,0 +1,109 @@
+Instructor: Hello and a very warm welcome to the Data Scientist Course.
+To many people, data science and machine learning feel like unknown territory,
+something too abstract and complex.
+
+Data Science:
+
+	•	Definition: A multidisciplinary field that focuses on extracting insights and knowledge from structured and unstructured data.
+    Talk about structured and unstructured data and the difference between them.
+    •	Scope: Encompasses the entire data lifecycle, including data collection, cleaning, exploration, analysis, visualization, and reporting.
+    •	Goal: Solve business problems and inform decision-making through insights derived from data.
+
+
+
+To show you that isn't the case,I would like to start by giving you a hands-on example
+of what to expect from this course and what you'll be able to do on your own only a few hours into our training.
+
+There are three keywords that will come up a lot during the lecture, data, algorithm, and insight.
+
+Here we have data collected from the customers of a shop,30 observations in total.
+
+Each observation represents a client who shared their customer satisfaction and brand loyalty.
+
+Let's suppose the owners of the shop hired our consultancy firm to analyze customer behavior.
+Dividing the shop's customer base into groups of individuals with similar traits is a great way to reduce complexity and come up with ideas on how to serve these customer groups better
+and of course win their business in the long run.
+
+To do that, we will have to apply machine learning.
+Ready?
+Here we go.
+The data set that we've got is already loaded in the variable data.
+
+A good preliminary step of most analyses is to visualize the data and examine it.
+
+One of the better tools to do that is a scatter plot.
+How many groups of points can you see here?
+There are two groups standing out.
+
+In data science, we would normally call these groups clusters.
+
+So two clusters can be identified instantly with no machine learning whatsoever.
+
+One represents people with low loyalty and low satisfaction and the other one containing all the rest.
+
+Our preliminary visual examination shows us that there are some insights we can draw for sure
+but let's take a more scientific approach.
+Most of the times in data science
+you would want to standardize your data.
+Next, we will perform some unsupervised machine learning.
+More specifically, cluster analysis.
+
+Using the popular Kmeans algorithm we will identify four clusters.
+
+The code, which we will examine in detail
+later on in the course, looks like the following,
+and we are done.
+
+I can now plot the data using the predicted clusters as colors of the new scatter plot.
+
+We've got the same scatter plot, but with four clusters.
+
+Our customers have been segmented.
+
+From here, we can distinguish four types of customers and actually name them.
+
+The ones with low satisfaction and low loyalty will be called alienated.
+Those with high satisfaction and high loyalty are fans.
+Those with low satisfaction and high loyalty are supporters,
+and the last ones that are neutral or disloyal but have a high satisfaction, these are roamers.
+
+Using just a few lines of code, we've reached a remarkable result.
+
+We have segmented our customers in four different groups.
+We've applied an algorithm on our data to reach an insight.
+Naturally we must analyze what we see.
+Data science is about storytelling and making sense of numbers.
+
+We have four groups, but only one of them is favorable. The fans.
+
+Cluster analysis indicates the problem.
+
+Some customers are dissatisfied, others are disloyal.
+
+However, we must figure out how to solve the problem ourselves.
+
+What are some ideas that data scientists and management will come up with?
+It makes sense to focus our efforts to turn supporters into fans by improving their shopping experience.
+
+Normally, we would have to dig deeper to find the drivers of dissatisfaction for these customers.
+Maybe it is long queues or unfriendly staff or perhaps high prices.
+Whatever the reason, we must take actionable steps to fix the issue and make our supporters happier.
+
+Simultaneously we can do something else.
+We can turn the roamers into fans by increasing their brand loyalty.
+Loyalty cards, gifts, personalized discounts, vouchers, and raffles are different strategies used to make such clients loyal in the long run.
+Great.
+
+Please bear in mind that in this exercise
+we missed a few steps along the way.
+Typing code step-by-step, creating a dendrogram,
+analyzing a heat map,
+and finding the optimal number of clusters.
+However, these are all topics we will address
+later on in the course.
+So let's begin acquiring the knowledge needed
+step-by-step until we are ready to gain insights
+from larger data sets with various algorithms,
+so we can turn all types of data into actionable insights.
+
+

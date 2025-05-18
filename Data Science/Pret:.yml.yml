@@ -1,0 +1,90 @@
+Pret:
+  Active:
+    - Visualise remboursement de Prets
+  Done:
+  On Hold:
+    - Correction des bugs de recouvrement de pret
+    - remboursement du capital du pret avant les frais
+    - rembousement du pret
+    - combinaison des api du prete
+    - Raison:
+        - Charge de l'equipe a cause des bugs de production
+        - En attendant d'un retour de Rubyx
+        - Priorite de la fonctionalite Premium
+
+Agent Visite:
+  Active:
+    - supprimeer les librairies absoletes (Active, boris)
+  Done:
+    - Migration vers Krakend
+  On Hold:
+    - Migration de flutter
+    - Raison:
+        - High Risk priority
+
+Intouch:
+  On Hold:
+    - Fournis les API
+    - Raison:
+        - Priorite de la fonctionalite offre de valeur
+        - Priorite de PCIDSS
+
+POS:
+  Active:
+    - UV a la demande de Reseau (Active, Boris)
+  Done:
+    - Migration de one Signalel a Batch
+    - paramétrer les frais de dépot et retrait
+  On Hold:
+    - Batch - Coder le plan de taggage
+    - Migration de flutter
+    - Raison:
+        - on n'a pas recu le plan de taggage
+        - High Risk priority
+
+Push:
+  Active:
+    - Gestion de l'expiration de la carte Push
+    - empecher rechargement ou transfert avec carte expirée
+    - Saisie du numéro de téléphone une deuxième fois pour confirmation avant transfert
+    - Toujours afficher les dernières notifications
+  Done:
+    - Suppression du compte
+    - Map des POS
+    - Réactiver le parrainage avec de nouvelles règles
+    - Modifier offre de valeur et commission Masters sur le Rechargement d’UV aux Dealers
+    - Permettre l'upload de fichiers PDF
+    - Afficher les conditions de validation d'un code Push
+  On Hold:
+    - Migration de flutter
+    - Annulation commande de carte et remboursement
+
+Premium:
+  Active:
+    - Segmentation du Profile (Allou, Active)
+    - Commande de Carte (Allou, Active)
+    - Ajout des incitants dans simulateur et historique
+    - premium - page Tarifs et taux de change
+
+BO:
+  Active:
+    - UV a la demande de Reseau
+    - Identfier un client premium
+
+  Done:
+    - Cashback acceptable
+
+  On Hold:
+    - Menu de gestion des transferts de solde des cartes expirées (Carte expirée BO)
+
+SETBC:
+  Active:
+
+  Done:
+    - API Status d'un transaction
+  On Hold:
+    - API Liaison de carte
+
+KYC:
+  Done:
+    - Migration vers Krakend

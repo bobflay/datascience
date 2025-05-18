@@ -1,0 +1,34 @@
+Git can be used as tool for :
+1- source code versionning control
+2- tracking changes in files
+3- collaboration among multiple developers
+4- deployment automation
+5- code review
+
+start a new project:
+touch index.txt and put in it hello world.
+git commit -m "add messge"
+
+git log to see the first commit
+
+use . for all files
+
+rm -rf .git remove git repository
+
+git diff to show the differences
+
+discuss the case of commit with issue hello wrold.
+create another commit to fix it, but if you didn't push it to git github
+use git ammend
+git reset --hard (reset everthing sos that the code looks like when it was a this specific commit)
+git reset --soft any changes you've made will still be reflected
+git commit --amend
+
+
+
+when do i need to create a new commit=>when I hit a new milestone
+
+talk about branches: 3 know major branches
+
+git merge feature master
+

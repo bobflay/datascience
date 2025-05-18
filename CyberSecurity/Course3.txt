@@ -1,0 +1,86 @@
+Another major use of hashing is in digital signatures. So just like their counterparts, digital
+
+signatures provide authenticity of a message, which means that if someone has digitally signed a document
+
+or data, then they are giving the assurance that that data or file is, in fact, coming from them.
+
+Let's see how digital signatures actually work and how they leverage hashing.
+
+So there is a source with the file, what the source does is that it calculates the hash of the file
+
+and then the source signs that hash using his private key.
+
+And then this signed hash is stored along with the file.
+
+Now, please note that this hash is not visible as plaintext.
+
+It has been encrypted or signed with the private key of the user.
+
+And we call it a digital signature because only the source has access to the private key and nobody
+
+else in the world can encrypt the data using source's
+
+private key.
+
+So now the user downloads the file, as well as the signed hash, and the user recalculates the hash of the
+
+downloaded file independently. Now the user also has access to the public key of the source, and he
+
+decrypts the signed hash using the public key.
+
+So the only way this hash could be decrypted was if this was signed by the private key of the source.
+
+And that's why we use the public key to decrypt it.
+
+And it worked.
+
+So this is the basic principle of public cryptography.
+
+Anything which is encrypted with private key can only be decrypted with the public key and vice versa.
+
+So now the user has obtained the unencrypted or the plain text hash and he has also recalculated the
+
+hash on his own.
+
+So the last step, the user compares the two hashes and if the two match, then it means the digital
+
+signature is valid and this file actually came from the sender.
+
+However, if there is any difference, then this means either the file has changed or somebody has tried
+
+to modify the contents of the signed hash.
+
+In either case, the authenticity is violated and we can be sure, that this was encrypted by the source
+
+because only private key can be used to encrypt data which is subsequently decrypted by the public.
+
+So just like their counterparts, digital signatures provide authenticity.
+
+What it means is that if someone digitally signed a document or data, then they are giving assurance
+
+that this data or this file is in fact coming from them.
+
+A digital signature is always done using the private key and the corresponding public key is distributed
+
+to thousands of users.
+
+So we are again leveraging the concepts of public key cryptography in which you sign using your private
+
+key or you encrypt using your private key, and then you distribute it publicly to the public at large
+
+and they can decrypt your message using your public key.
+
+Confidentiality can additionally be added by encrypting the entire file, using the private key in addition
+
+to the hash.
+
+
+
+However, in some instances, MD5 five has been shown to suffer from collisions.
+
+
+
+
+This concludes our lecture.
+
+I'll see you in the next one.

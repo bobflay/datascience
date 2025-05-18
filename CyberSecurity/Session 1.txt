@@ -1,0 +1,124 @@
+Cyber Security Course
+
+Certification: CISSP
+Hands-On Labs:
+
+	•	Investigate Phishing Labs:
+	•	Learn to verify if emails or attachments are malicious (a practical skill to list on your resume).
+	•	Port Scanning:
+	•	Scan active web servers to identify vulnerable applications and open ports.
+
+CIA Triad
+
+Confidentiality, Integrity & Availability
+
+Confidentiality:
+Confidentiality ensures that data remains private when stored, transmitted, or processed. 
+Data should be hidden and only visible to authorized users, enforced through encryption to keep it secure. 
+For example, during packet sniffing, data transferred over a network could be captured, 
+but encryption helps prevent unauthorized access.
+
+Integrity:
+Integrity ensures that data remains accurate, complete, and unmodified. 
+A common violation occurs when a man-in-the-middle intercepts and alters data. 
+Hashes, which summarize the original data, can be used to verify integrity. 
+If any change is made, the hash will change, alerting the receiver that the data has been tampered with.
+
+Availability:
+Availability ensures that data and systems are accessible when needed. 
+A violation can occur if someone damages communication infrastructure or attacks a web server. 
+Even slowing down a database server can affect availability. 
+Redundancy, such as having multiple communication links and backup web servers, 
+is typically used to maintain availability.
+
+
+Practical Activity on the CIA Triad:
+
+Example 1:
+You work as a data engineer for a software company. 
+When you try to log in to your data file interface, 
+you receive a notification that your account has been locked due to multiple failed login attempts. 
+Which pillar of the triad is violated?
+
+	•	Availability is violated since you cannot access your data when needed.
+Confidentiality or integrity hasn’t been violated because no data was exposed or altered.
+
+
+Example 2:
+You are working in an office and want to send an email containing confidential data. However, you accidentally include someone from another organization in the recipient list. Which pillar is violated?
+
+	•	Confidentiality is violated because someone unauthorized has gained access to sensitive information. Whether or not they exploit it, the data is compromised.
+
+Example 3:
+You are a cloud engineer managing data hosted in the cloud. During the night, an attacker gains write access to the database and inserts malicious records or documents. You run a data verification check and find issues. Which pillar is violated?
+
+	•	Integrity is violated since the data has been altered without authorization.
+
+Identity and Access Management (IAM)
+
+IAAA:
+
+	•	Identification: Identifying an entity, such as with a username, phone number, or other identifiers. Identification is different from authentication. For example, providing a username is identification, but proving you are the rightful owner of the username is authentication.
+	•	Authentication: Proving that you are who you claim to be, using a password, PIN, or biometric data like a fingerprint. Authentication follows identification. For example, you prove your identity by providing a password after stating your username. Authentication is crucial for non-repudiation, meaning you cannot deny performing an action once authenticated.
+	•	Authorization: Once authenticated, you are given permission to access certain resources based on your role. For example, a CEO might have elevated privileges, while a network administrator has extensive access to systems. Access is enforced using Access Control Lists (ACLs), which specify the resources each user can access.
+	•	Accountability: Users are responsible for their actions once authorized. Audit mechanisms ensure that privileges are used properly, through account audits and log reviews.
+
+IAAA in Real Life:
+
+	•	Identification: Jim goes to a bank and says, “Hi, I’m Jim.” This is identification—Jim has claimed his identity.
+	•	Authentication: The bank officer asks for Jim’s ID, and Jim provides his driver’s license. By verifying the ID, Jim has authenticated himself.
+	•	Authorization: Jim asks to withdraw $10,000, but the bank officer informs him that the daily withdrawal limit is $5,000. This is authorization—Jim is allowed to withdraw only what his authorization permits.
+	•	Accountability: The bank officer logs Jim’s transaction to ensure accountability, maintaining records of actions taken.
+
+Identification and Authentication in Detail
+
+Identification:
+A subject claims an identity, such as with a username or phone number.
+
+Authentication:
+This proves the identity of the subject using a password, PIN, or biometric data.
+
+Identity Lifecycle:
+
+	1.	Provisioning: New accounts are created, and privileges are assigned.
+	2.	Review Process: Periodic account reviews detect inactive accounts and “privilege creep” (when an employee moves up in the organization and accumulates excessive privileges).
+	3.	Revocation: Disable accounts for employees who leave, retire, or are terminated. 
+	Revocation is important, as a terminated employee with access could misuse it.
+
+Authentication Factors (from weakest to strongest)
+
+Type 1: Something You Know
+
+	•	Passwords or PINs. These are stored in your memory but can be compromised if shared.
+
+Type 2: Something You Have
+
+	•	Physical items such as smart cards, mobile SIMs, or badges.
+
+Type 3: Something You Are
+
+	•	Biometrics, such as retina scans, iris scans, fingerprints, palm scans, or voice recognition.
+
+Multi-Factor Authentication (MFA)
+
+MFA combines two or more types of authentication factors to provide stronger security. For example, using both a password (Type 1) and a mobile SMS code (Type 2) creates a more secure system than just using a password alone.
+Example: When buying with a debit card, you input a PIN (Type 1) and use the physical card (Type 2), combining two factors for authentication.
+
+Authorization and Accountability
+
+Authorization:
+Determines who can perform which actions on a system. For example, a normal user might only have read access, while an admin can create, view, or delete accounts.
+
+Accountability:
+Ensures that users are held responsible for their actions through logging and audits. Users must be identified and authenticated to establish non-repudiation, meaning they cannot deny their actions.
+
+Need-to-Know Principle:
+Users should have the minimum necessary access to perform their job duties, limiting the risk of misuse or security breaches. For example, a system administrator may have full access to systems, but doesn’t need access to employees’ salaries.
+
+Privilege Creep:
+As users move up within an organization, they may accumulate unnecessary privileges. Regular reviews and privilege revocation help ensure that users only have the access they need.
+
+Accountability Practices:
+
+	•	Log audits and job rotations help maintain accountability. By rotating staff, new employees can detect inappropriate actions by predecessors.
+	•	Network, firewall, database, and system logs help track and monitor actions within an organization.

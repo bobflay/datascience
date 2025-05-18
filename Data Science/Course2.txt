@@ -1,0 +1,949 @@
+In this day and age maintaining a healthy business goes hand in hand
+alongside working with data.
+Whether you understand it or not,
+there is no denying
+that data is at the foundation of any successful company
+and the business entrepreneurs that are leading the way
+are aware that looking deeper into data
+is what will make them tower above the competition.
+
+
+Let's start with the data team or the big data team.
+They will want to solve a business problem.
+The team will do a significant amount of work on the data that is available first.
+
+
+Based on that,
+
+the business intelligence team
+will provide a business insights dashboard.
+
+After the dashboard is ready
+the data science team will use some business analytics
+or data analytics tools to develop models
+that could predict future outcomes.
+
+
+
+For example,
+
+someone who had the title of statistician 25 years ago
+
+would've been responsible for gathering
+
+and cleaning data sets
+
+and applying various statistical methods to the data.
+
+
+
+After some years; however, with the growth of data
+
+and the radical improvement of technology,
+
+this statistician would now be required
+
+to extract patterns from data.
+
+Henceforth,
+
+a new buzzword was coined, data mining.
+
+Similarly,
+
+forward wind a few more years, in the same statistician
+
+due to new mathematical and statistical models
+
+could now perform more accurate forecasts.
+
+And again,
+
+another term as found its way
+
+into an already inflated business glossary,
+
+predictive analytics.
+
+
+
+
+One HR representative may call a job position,
+
+data analytics specialist.
+
+When in fact,
+
+they need a data analyst.
+
+
+Another may employ a junior data scientist
+
+when they require a business intelligence analyst.
+
+
+
+
+We begin by clarifying the similarities and differences
+
+between the terms business analytics,
+
+data analytics,
+
+data science,
+
+business intelligence
+
+and machine learning.
+
+
+So, let's discuss the  differences between the terms analysis and analytics.
+
+Due to the similarity of the words, some people believe they share the same meaning and thus use them interchangeably.
+
+Technically, this isn't correct.
+
+There is in fact a distinct difference between the two And the reason for one often being used instead
+
+of the other is the lack of a transparent understanding
+
+of both.
+
+
+First, we will start with analysis.
+
+Consider the following.
+
+You have a huge data set containing data of various types.
+
+Instead of tackling the entire data and running the risk
+
+of becoming overwhelmed, you separate it into easier
+
+to digest chunks and study them individually
+
+and examine how they relate to other parts.
+
+And that's analysis in a nutshell.
+
+One important thing to remember, however,
+
+is that you perform analysis
+
+on things that have already happened in the past
+
+such as using an analysis to explain
+
+how a story ended the way it did
+
+or how there was a decrease in sales last summer.
+
+All this means that we do analyses to explain
+
+how and or why something happened.
+
+Great!
+
+
+
+Now this leads us nicely on to the definition of analytics.
+
+As you have probably guessed, analytics generally refers
+
+to the future.
+
+Instead of explaining past events,
+
+it explores potential future ones.
+
+Analytics is essentially the application of logical
+
+and computational reasoning to the component parts
+
+obtained in an analysis.
+
+
+And in doing this, you are looking for patterns
+
+and exploring what you could do with them in the future.
+
+
+Here, analytics branches off into two areas,
+
+qualitative analytics.
+
+
+This is using your intuition and experience in conjunction
+
+with the analysis to plan your next business move.
+
+And quantitative analytics.
+
+This is applying formulas and algorithms to numbers
+
+you have gathered from your analysis.
+
+Here are a couple of examples.
+
+Say you are an owner of an online clothing store,
+
+you are ahead of the competition
+
+and have a great understanding of what your customers needs
+
+and wants are.
+
+You've performed a very detailed analysis
+
+from women's clothing articles and feel sure
+
+about which fashion trends to follow.
+
+You may use this intuition to decide on which styles
+
+of clothing to start selling.
+
+
+
+This would be qualitative analytics, but you might not know
+
+when to introduce the new collection.
+
+In that case, relying on past sales data
+
+and user experience data, you could predict
+
+in which month it would be best to do that.
+
+This is an example of using quantitative analytics.
+
+Fantastic!
+
+
+Now that we have cleared up the differences
+
+between analysis and analytics,
+
+it shouldn't be too difficult to see how terms
+
+such as 
+data analysis, data analytics, 
+business analysis, and business analytics can have their unique meanings too.
+
+
+So, it's time for us to create a diagram
+
+
+Business case studies,
+
+qualitative analytics,
+
+preliminary data report,
+
+reporting with visuals,
+
+creating dashboards
+
+and sales forecasting.
+
+
+
+First though, take a moment to think
+
+what they all have in common.
+
+That's right, they are all part of the business world.
+
+We'll depict this with a blue rectangle here.
+
+Good.
+
+Now, let's think about the following.
+
+How many of these terms involve working with data?
+
+If we drew another rectangle and placed the activities
+
+for which it is essential to have data available in there,
+
+which ones, if any, would overlap
+
+with the business rectangle?
+
+The answer is some.
+
+That's because some business activities are data-driven,
+
+while others are subjective or experience-driven.
+
+Of course, there are disciplines that will overlap.
+
+We will place them in the common area of the two rectangles.
+
+So, let's see.
+
+Which of the subfields from our list
+
+represent a business activity involving data?
+
+Well, you'll need data to create a preliminary report,
+
+a visual representation of the performance
+
+of your company for last year,
+
+a business dashboard,
+
+and also a forecast for the future sales of your company,
+
+so these four labels can sit comfortably
+
+in the overlapping area.
+
+Great.
+
+The other two terms, business case studies
+
+and qualitative analytics, get left behind
+
+as they belong only to the sphere of business.
+
+They're not related to working with data.
+
+Let's explore why.
+
+Business case studies are real-world experiences
+
+of how business people and companies succeed or fail.
+
+You don't need a data set to learn from business cases,
+
+thus it will remain purely in the blue rectangle.
+
+Simple, right?
+
+The same can be said for qualitative analytics.
+
+As touched upon in the previous video,
+
+this is all about using your intuition
+
+and the knowledge of the market
+
+to help in the future planning process.
+
+Perfect, things are becoming clearer already.
+
+Now would be the perfect time to introduce a timeline
+
+to our graph.
+
+The reason for doing that is
+
+that some of the terms you see refer to activities
+
+that aim to explain past behavior,
+
+while others refer to activities used
+
+for predicting future behavior.
+
+Let's cut the picture roughly through the middle.
+
+This line will represent the present.
+
+Okay, therefore, all terms that are on the right side
+
+of this line will regard analytics,
+
+future planning and forecasting,
+
+and those that are on the left of the line
+
+will be related to the analysis of past events or data.
+
+Perfect!
+
+Business case studies examine events
+
+that have already happened.
+
+For instance, one could learn from them
+
+in attempt to prevent making a similar mistake
+
+in the future, right?
+
+As a result, we could say studying business cases
+
+is part of your analysis,
+
+so this activity refers to the past.
+
+Hence, it must be located on the left
+
+of the vertical line on our graph.
+
+We will move it up slightly to be able to contrast it
+
+to the other business term, qualitative analytics.
+
+This includes working with tools
+
+that help predict future behavior,
+
+therefore must be placed on the right.
+
+Awesome!
+
+In essence, what we have now is qualitative analytics
+
+which belongs to the area of business analytics,
+
+while learning from business case studies
+
+is part of your business analysis.
+
+However, this is not what many professionals would say.
+
+In practice, analytics has become a term
+
+comprising both analysis and analytics.
+
+Although this goes against what we explained earlier,
+
+please allow us to accept the industry jargon
+
+and leave business analytics as a label for the entire set
+
+of business processes you see on the graph.
+
+It may look like we're confusing matters,
+
+but things will be simpler in the long run.
+
+All right, hopefully, we're starting to get our heads
+
+around many of these terms
+
+and where they fit with each other.
+
+So, what about the rest of the terms you see on the diagram?
+
+Well, preparing a report or a dashboard
+
+is always a reflection of past data,
+
+so these terms will remain untouched.
+
+Forecasting though, is a future-oriented activity,
+
+so we can move it to the right of the black line,
+
+but not too much.
+
+It must still belong on the sphere of business,
+
+so it must be in the area where business analytics
+
+and data intersect.
+
+Great!
+
+Again, it is common practice
+
+to use the encompassing term, data analytics,
+
+to refer to both the analyses and analytics.
+
+While we know what the terms mean now,
+
+to keep things simple, following the standards
+
+of other business professionals is a good idea.
+
+Okay, good.
+
+Let's continue with adding another term.
+
+The most sparkly of them all, data science.
+
+Data science is a discipline reliant on data availability,
+
+while business analytics does not completely rely on data.
+
+However, data science incorporates part of data analytics,
+
+mostly the part that uses complex mathematical,
+
+statistical and programming tools.
+
+Consequently, the screen rectangle,
+
+representing data science on our diagram,
+
+will not overlap with data analytics completely,
+
+but it will reach a point
+
+beyond the area of business analytics.
+
+Okay.
+
+Great.
+
+Does this mean that the preliminary data report,
+
+reporting with visuals, creating dashboards
+
+and sales forecasting are of interest to a data scientist?
+
+Yes, absolutely.
+
+And now, do you think we can find an example of a discipline
+
+that belongs to the field of data science
+
+and is considered data analytics but not business analytics?
+
+Well, think of the oil and gas industry
+
+and the optimization of drilling operations,
+
+this is a perfect fit for this subarea.
+
+Data science can be used to improve the accuracy
+
+of predictions based on data extracted
+
+from various activities typical for drilling efficiency,
+
+and that certainly isn't business analytics.
+
+Great.
+
+What is left is to think of something
+
+that involves data analytics
+
+but neither data science nor business analytics.
+
+Can we find an example here as well?
+
+Sure, digital signal processing would do the job.
+
+Digital signal is used to represent data
+
+in the form of discreet values,
+
+which is an example of numeric data.
+
+Therefore, data analytics can be applied to digital signal
+
+in order to produce a higher-quality signal,
+
+and that's what digital signal processing is all about.
+
+Amazing!
+
+We hope the diagram is helping you
+
+to visualize how all the pieces fit together
+
+because we're not done yet.
+
+We will continue with the remaining disciplines
+
+related to the world of business and data science
+
+in our next video.
+
+See you there.
+
+-: Okay, people,
+
+we have gone from a rather odd looking design
+
+to what now is hopefully a comprehensive
+
+and easy to follow model.
+
+We say hopefully because we will be sticking
+
+to the same method of visualization as we proceed.
+
+Great!
+
+We know you're eager to see what comes next.
+
+We're going to add business intelligence to the diagram
+
+but what is business intelligence
+
+and how does it fit into the picture?
+
+Remember the following: business intelligence or BI,
+
+is the process of analyzing
+
+and reporting historical business data.
+
+After reports and dashboards have been prepared
+
+they can be used to make informed strategic
+
+and tactical business decisions
+
+by end users, such as the general manager.
+
+Concisely put, business intelligence aims
+
+to explain past events using business data.
+
+So with this information, we can work out where
+
+the business intelligence rectangle should go.
+
+It must go on the left of the timeline,
+
+as it deals only with past events
+
+and it must sit within the data science rectangle
+
+as a subfield.
+
+Business intelligence fits comfortably
+
+within data science because it is the preliminary step
+
+of predictive analytics.
+
+It makes sense when you think about it.
+
+First, you must analyze past data
+
+and extract useful insights.
+
+Using these inferences will allow you to create appropriate
+
+models that could predict the future
+
+of your business accurately.
+
+Great.
+
+Let's move on.
+
+How should we distribute the three terms
+
+that remain over here?
+
+Preliminary data report is the first step
+
+of any data analysis.
+
+It can also be considered as data science,
+
+so this term can stay where it is.
+
+As with reporting and creating dashboards,
+
+these are precisely what business intelligence is all about.
+
+So we will neatly place these two into the orange rectangle.
+
+Fantastic, and that's pretty much it
+
+for business intelligence.
+
+Now we delve into the controversial,
+
+yet rapidly expanding field of artificial intelligence, AI,
+
+and its subfield machine learning, ML.
+
+The ability of machines to predict outcomes
+
+without being explicitly programmed to do so
+
+is regarded as machine learning.
+
+Expanding on this, ML'S about creating and implementing
+
+algorithms that let machines receive data
+
+and use this data to make predictions, analyze patterns
+
+and give recommendations on their own.
+
+Machine learning cannot be implemented without data.
+
+Hence, it should stay within data analytics completely.
+
+This could be considered as a bold statement to make,
+
+as it is debatable whether this is correct.
+
+Some argue that data analytics and ML
+
+are two unrelated scientific fields.
+
+For the sake of argument, we will let the machine learning
+
+and data analytics rectangles overlap and in a moment
+
+we will exemplify some areas that could be considered parts
+
+of both disciplines.
+
+Moreover, ML should expand slightly
+
+to the left of the vertical line.
+
+The reason for that is the increasing tendency
+
+towards applying machine learning tools
+
+to the context of business intelligence.
+
+Fantastic!
+
+You remember we mentioned artificial intelligence right?
+
+By definition, it is about simulating human knowledge
+
+and decision making with computers.
+
+It is quite a general term
+
+that can have a rather philosophical interpretation.
+
+We, as humans, have only managed to reach AI
+
+through machine learning,
+
+the discipline we just talked about,
+
+and as data scientists, we are interested in how tools
+
+from machine learning can help us improve
+
+the accuracy of our estimations.
+
+AI is beyond our expertise.
+
+We have mentioned it just to avoid the confusion
+
+of where it stands relative to the other fields of interest.
+
+All right.
+
+Let's provide a few examples.
+
+The demand for accurate, realtime dashboards
+
+open space for machine learning applications.
+
+Machine learning software can pull data
+
+from third party companies, such as Facebook or Shopify,
+
+detect new patterns from their data and thus,
+
+suggest realtime recommendations and insights
+
+to managers and other decision makers.
+
+This is a great way to improve the performance
+
+of your business as soon as there's a chance to do so.
+
+In general, there is a lot
+
+of potential for development in this field.
+
+Turning to the other side of the vertical line,
+
+we can say client retention
+
+and acquisition are two typical business activities
+
+where machine learning is involved.
+
+It helps develop models that predict
+
+what a client's next purchase would be.
+
+For example, since we could say data analytics
+
+and data science are applied in client retention
+
+and acquisition as well,
+
+we can leave this term right over here.
+
+Okay!
+
+ML can be applied to fraud prevention as another example.
+
+We can feed a machine learning algorithm
+
+with prior fraudulent activity data.
+
+It will find patterns
+
+which the human brain is incapable of seeing.
+
+Having a model which can detect such transactions
+
+or operations in real time has helped the financial system
+
+prevent a huge amount of fraudulent activity.
+
+These examples are probably not the first
+
+that would spring to mind when talking AI and ML.
+
+Usually, speech and image recognition
+
+are among the most popular examples,
+
+as they are already being implemented in products like Siri,
+
+Cortana, Google's assistant and more impressively,
+
+self-driving cars.
+
+Naturally, these two examples are outside
+
+the business context and it is debatable
+
+whether they could be placed under the umbrella
+
+of data science,
+
+data analytics,
+
+both
+
+or neither.
+
+As it is a hot topic for discussion right now,
+
+we think they are worth mentioning.
+
+However, to avoid further confusion and disputes,
+
+let's take speech and image recognition out of the picture.
+
+Finally, an example that is considered
+
+artificial intelligence but not machine learning
+
+is symbolic reasoning.
+
+It is based on the high-level human readable representations
+
+of problems and logic.
+
+It was once a trend in the past,
+
+when people were trying to create human-like intelligence.
+
+Today though, machine learning is the only form
+
+of general artificial intelligence that is being applied
+
+and symbolic AI is rarely encountered, let alone practiced.
+
+All right, so along with speech and image recognition
+
+we can remove symbolic AI from the equation also.
+
+This will leave us with only what we are interested in.
+
+Nice!
+
+Now, we would like to mention a term that has invaded
+
+almost all business and data science glossaries,
+
+advanced analytics.
+
+It is rather a marketing term, coming from people
+
+who want to say that the type of analytics
+
+they are dealing with is not easy to handle.
+
+This is a subjective way of looking at it.
+
+Often intimidating-sounding terms are used
+
+to discourage learning and create prestige.
+
+However, we are here to attempt to clarify
+
+the terms within analytics and advanced analytics
+
+is technically a term that exists.
+
+So we will collectively group all areas of analytics
+
+under advanced analytics, with the idea that any part
+
+of analytics can seem advanced at first,
+
+but that no part is exclusively
+
+or permanently within this category.
+
+Perfect!
+
+Remember that all areas intertwine
+
+and what we show here is not a strict representation
+
+of commonly accepted meanings and definitions.
+
+It is all matter of interpretation
+
+and this graph is our vision of data science.
+
+The locations of some of the components
+
+in the diagram are somewhat controversial.
+
+However, we believe this is a very comprehensive depiction
+
+of what these disciplines are about and how they overlap.
+
+Before we wrap up, the position and the size
+
+of the rectangles show conceptual similarities
+
+and differences, not complexity.
+
+All right, great!
+
+Finally, let's refer to our infographic.
+
+You won't need all fields from the diagram
+
+because we will be concentrating
+
+on data science and its application in business.
+
+Therefore, this is the rectangle
+
+that we will be working on next.
+
+The infographic I am talking about looks like this.
+
+It may look a little complicated at first,
+
+but if you follow us through the next videos
+
+we will explain it step by step.
+
+Thank you for watching.
